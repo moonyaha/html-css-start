@@ -1,0 +1,11 @@
+@import "functions/size";
+@import "mixins/font-size";
+@import "variables";
+
+
+body {
+    min-height: 100vh;
+    min-width: $minWidth + px;
+    display: flex;
+    flex-direction: column;
+}
